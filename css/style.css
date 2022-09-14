@@ -1,0 +1,132 @@
+@import url('https://fonts.googleapis.com/css2?family=PT+Sans&display=swap%27');
+@import url('https://fonts.googleapis.com/css2?family=PT+Mono&family=PT+Sans&display=swap%27');
+
+*{
+    margin: 0;
+    padding: 0;
+    color: rgb(0, 0, 0);
+}
+
+body{
+    font-family: 'PT Sans', sans-serif;
+}
+
+.font-monos{
+    font-family: 'PT Sans', sans-serif;
+}
+
+.bg{
+    background-color: #edffeed4;
+}
+
+.h1-bg{
+    background-color: #dcffe0;
+}
+
+.nav-link div ul{
+    display: none;
+    position: absolute;
+}
+
+.nav-link div:hover ul{
+    display: block;
+}
+
+.linear{
+    background-color: linear-gradient(180deg,red,blue);
+}
+
+.log{
+    background-color: rgb(65 92 104 / 28%);
+}
+
+
+.nth-child:nth-child(even){
+    background-color: rgb(237, 253, 228);
+}
+
+.log-in{
+    position: absolute;
+    top: 25vh;
+    left: 80vh;
+}
+
+.intro{
+    font-size: 50px;
+    font-weight: 700;
+    width: 300px;
+    padding-left: 30px;
+    padding-top: 130px;
+}
+
+.bg-log{
+    background-color: #e6fce9;
+}
+
+.container2{
+    max-width: 330px;
+    text-align: center;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 10px 10px 15px #c1baba;
+    margin-right: 300px;
+}
+
+.sec1{
+    margin-top: 10px;
+    margin-bottom: 40px;
+}
+
+.form-content{
+    padding-bottom: 10px;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.label{
+    text-align: left;
+    padding-left: 20px;
+    font-weight: bold;
+}
+
+.inp{
+    width: 270px;
+    height: 30px;
+    margin-bottom: 15px;
+    background-color: #fcfffd;
+    border: 1px solid black;
+    border-radius: 5px;
+    padding-left: 8px;
+}
+
+textarea:focus, input:focus{
+    border: none;
+    outline: #c1baba solid 2px;
+}
+
+.forget-password{
+    color: black;
+}
+.sub-btn{
+    width: 150px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    padding: 5px;
+    cursor: pointer;
+    background-color: black;
+    color: white;
+    border-radius: 5px;
+}
+
+.sign-up{
+    width: 150px;
+    padding: 5px 50px;
+    text-decoration: none;
+    color: white;
+    background-color: rgb(254 55 55);
+    border-radius: 5px;
+}
+
+.sign-up:hover{
+    background-color: red;
+}

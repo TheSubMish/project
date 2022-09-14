@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@48,400,0,0" />
+    <title>Contact LICT</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/tailwind.css">
+</head>
+<body>
+    <div class="bg py-3 lg:flex lg:justify-between sticky inset-x-0 top-0 my-auto font-monos">
+        <div class="hidden ml-20 lg:block xl:ml-20">
+            <h1 class="font-bold w-max mx-auto px-4 py-1 rounded-2xl lg:text-2xl">Lumbini ICT</h1>
+        </div>
+        <div class="flex justify-evenly my-auto nav-link font-bold lg:w-max lg:text-2xl lg:ml-56 xl:mr-20">
+            <div class="lg:mr-10">
+                <a href="home.html" class="hover:text-gray-400">Home</a>
+            </div>
+            <div class="lg:mr-10">
+                <a href="contact.html" class="text-gray-400">Contact</a>
+            </div>
+            <div class="lg:mr-10">
+                <a href="#" class="hover:text-gray-400">Students</a>
+                <ul class="bg font-bold">
+                    <li class="px-2 py-3 hover:text-gray-400"><a href="secA.html">CSIT - A</a></li>
+                    <li class="px-2 py-1 hover:text-gray-400"><a href="secB.html">CSIT - B</a></li>
+                </ul>
+            </div>
+            <div class="lg:mr-20 xl:mr-0">
+                <a href="index.html" class="hover:text-gray-400 mob">Log-Out</a>
+            </div>
+        </div>
+    </div>
+
+    <div class="my-20 mx-4 sm:mx-24 lg:flex lg:my-40 xl:mx-60">
+        <div class="mb-10 lg:w-1/2 xl:my-10 xl:mr-20">
+            <h1 class="h1-bg mb-5 font-bold w-max mx-auto px-4 py-1 rounded-2xl lg:text-2xl">Get In Touch</h1>
+            <p class="text-justify lg:px-16 font-monos">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quos distinctio fugit, commodi corrupti voluptatibus esse? Sequi tempore veritatis nisi aliquam fugiat odit mollitia neque officia, distinctio temporibus nulla assumenda quis dolorum facere officiis molestiae quae recusandae explicabo maiores. Ea repellat quibusdam voluptatum necessitatibus saepe rem corrupti, esse ipsa? Ullam, recusandae!</p>
+        </div>
+        <div class="lg:my-10">
+            <form action="#" method="post" onsubmit="return conValid()">
+                <div class="sm:flex">
+                    <div class="sm:mr-4 sm:flex-auto">
+                        <input type="text" name="fname" id="fname" placeholder="First Name" class="border border-black rounded p-2 mb-3 w-full sm:w-full">
+                    </div>
+                    <div class="sm:flex-auto">
+                        <input type="text" name="lname" id="lname" placeholder="Last Name" class="border border-black rounded p-2 mb-3 w-full sm:w-full">
+                    </div>
+                </div>
+                <div>
+                    <input type="email" name="mail" id="mail" placeholder="Enter Your Email Address" class="border border-black rounded p-2 mb-3 w-full">
+                </div>
+                <div>
+                    <textarea name="msg" id="msg" placeholder="Enter Your Message" class="border border-black rounded p-4 mb-3 h-28 w-full xl:h-48"></textarea>
+                </div>
+                <div>
+                    <button type="submit" class="h1-bg font-bold rounded-2xl px-4 py-1">Send Message</button>
+                </div>
+            </form>
+        </div>
+    </div>
+
+    <div class="bg lg:flex lg:justify-evenly py-10">
+        <div class="text-center mb-6 lg:mt-8">
+            <h1 class="text-3xl font-bold cursor-default">Lumbini ICT Campus</h1>
+            <p>TU Affiliated</p>
+            <p>Kaligandaki Chowk, Gaidakot</p>
+            <p>admin@lict.edu.np</p>
+        </div>
+        <div class="text-center mb-6 lg:mt-8">
+            <h1 class="text-3xl font-bold cursor-default">Courses</h1>
+            <ul class="lb-6 lg:text-left lg:pl-4 list-disc">
+                <li>B.Sc CSIT</li>
+                <li>BCA</li>
+                <li>BIM</li>
+                <li>BHM</li>
+            </ul>
+        </div>
+        <div class="text-center mb-6 lg:mt-8">
+            <h1 class="text-3xl font-bold cursor-default">Quick Links</h1>
+            <ul class="lb-6 lg:text-left lg:pl-4">
+                <li class="font-bold my-1"><span class="material-symbols-outlined pr-1">home</span><a href="index.html">Home</a></li>
+                <li class="font-bold my-1"><span class="material-symbols-outlined pr-1">groups</span><a href="secA.html">Students</a></li>
+                <li class="font-bold my-1"><span class="material-symbols-outlined pr-1">contacts</span><a href="contact.html">Contact</a></li>
+                <li class="font-bold my-1"><span class="material-symbols-outlined pr-1">logout</span><a href="index.html">Log-Out</a></li>
+            </ul>
+        </div>
+    </div>
+    <div class="w-max mx-auto p-2">
+        <p class="text-black">&copy Copyright TheSubMish</p>
+    </div>
+
+    <script src="js/script.js"></script>
+</body>
+</html>
